@@ -17,8 +17,6 @@ form input{
     display: block;
     border-radius: 8px;
     margin:auto;
-    margin-left:10px;
-    margin-right: 10px;
     width: 250px;
     padding-left: 10px;
     height: 25px;
@@ -40,10 +38,9 @@ form{
     border-radius: 15px;
 }
 form p{
-  padding-left: 20px;
+  padding-left: 25px;
   margin-top: 20px;
   margin-bottom: 2px;
-
 }
 #btnOK{
     background-color: rgb(119, 217, 22);
@@ -54,10 +51,11 @@ form p{
     margin-top: 20px;
     height:30px;
     border-style: none;
+    font-weight: 600;
   
 }
 #btnOK:hover{
-    transform: scale(1.05); /* Aumenta el tamaño en un 10% */
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
     transition: transform 0.2s ease-in-out; /* Añade una transición suave */
     /*todo cool hasta acá*/
 }
