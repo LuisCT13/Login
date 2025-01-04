@@ -1,16 +1,17 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("resources/fondo.png");
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con navegadores antiguos */
+    /*backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con navegadores antiguos 
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(11, 85, 119, 0.685) 80%);
 }
 h1{
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
-    color: white;
+    color: rgba(5, 29, 43, 0.699);   
 }
 form input{
     display: block;
@@ -21,7 +22,7 @@ form input{
     width: 250px;
     padding-left: 10px;
     height: 25px;
-    border-style: none;
+    border-style: none; 
 }
 form input:focus{
     outline-color: rgb(26, 161, 161);
